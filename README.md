@@ -7,22 +7,28 @@ For this project, we leveraged the code provided in the publication by Zhou et a
 
 
 **Folder Structure**
+
 **code_1: Optic Disc and Cup Segmentation**
+
 This folder contains Python scripts for segmenting the optic disc and cup from IR-SLO images. The deep learning algorithm, originally developed for anatomical segmentation in color fundus images, has been adapted and optimized for IR-SLO images. Pre-processing and post-processing techniques are employed to enhance the accuracy of the segmentation.
 
 **code_2: Vessel Segmentation**
+
 This folder includes Python scripts for segmenting blood vessels in IR-SLO images. The deep learning algorithm has been customized with targeted pre- and post-processing stages to improve segmentation performance on IR-SLO images, similar to the approach used for optic disc and cup segmentation.
 
 **code_3: Clinical Feature Extraction**
+
 This folder contains Python scripts for extracting clinical features from the segmented anatomical structures obtained from code_1 and code_2. Extracted features include measurements related to the optic disc, optic cup, and blood vessels, which are crucial for subsequent analysis.
 
 **code_4: Feature Importance Measurement**
+
 This folder focuses on evaluating the importance of each clinical feature for differentiating between MS and healthy controls (HC). The most discriminative features are first identified using the Mann-Whitney U test, a statistical method for detecting significant differences between two groups. The SHAP (SHapley Additive exPlanations) method is then applied to assess the importance of these features.
 
 
 
 
 **Workflow**
+
 Segmentation:
 
 Run the scripts in code_1 to segment the optic disc and cup from IR-SLO images.
@@ -40,18 +46,21 @@ Apply the SHAP method to the selected features to determine their importance in 
 
 
 **Requirements**
+
 Python 3.x
 Deep learning framework (TensorFlow)
 Libraries: NumPy, OpenCV, scikit-learn, SHAP, and any other dependencies specified in the individual code files.
 
 
 **Usage**
+
 Ensure all dependencies are installed.
 Place the input IR-SLO images in the designated directory.
 Follow the workflow steps to segment the images, extract features, and evaluate their importance.
 
 
 **Conclusion**
+
 This project provides a comprehensive pipeline for segmenting IR-SLO images, extracting clinically relevant features, and evaluating their significance in the classification of MS. By combining deep learning-based segmentation with statistical feature selection methods, the pipeline enables robust analysis and the potential identification of MS-specific features within IR-SLO images.
 
 For any questions or further assistance, please contact "royaarian101@gmail.com" or "asieh.soltanipour1365@gmail.com".
