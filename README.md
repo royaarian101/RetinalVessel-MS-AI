@@ -1,7 +1,7 @@
 # RetinalVessel-MS-AI
 **Interpretable AI for Analyzing Retinal Vessel Morphology in Multiple Sclerosis Using IR-SLO Images**
 
-Autors: Asieh Soltanipour, Roya Arian, Ali Aghababaei, Raheleh Kafieh
+Authors: Asieh Soltanipour, Roya Arian, Ali Aghababaei, Raheleh Kafieh
 
 This project explores the identification of multiple sclerosis (MS)-specific features within infrared reflectance scanning laser ophthalmoscopy (IR-SLO) images. The work involves segmenting IR-SLO images into distinct anatomical structures, extracting clinically relevant features from these structures, and assessing their significance in differentiating between MS patients and healthy controls (HC).
 
