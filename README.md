@@ -65,7 +65,7 @@ Follow the workflow steps to segment the images, extract features, and evaluate 
 
 This project provides a comprehensive pipeline for segmenting IR-SLO images, extracting clinically relevant features, and evaluating their significance in the classification of MS. By combining deep learning-based segmentation with statistical feature selection methods, the pipeline enables robust analysis and the potential identification of MS-specific features within IR-SLO images.
 
-For any questions or further assistance, please contact "asieh.soltanipour1365@gmail.com".
+For any questions or further assistance, please contact "asieh.soltanipour1365@gmail.com" (the main Author).
 
 
 
