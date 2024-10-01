@@ -3,12 +3,13 @@
 
 Authors: Asieh Soltanipour, Roya Arian, Ali Aghababaei, Raheleh Kafieh
 
+# Introduction
 This project explores the identification of multiple sclerosis (MS)-specific features within infrared reflectance scanning laser ophthalmoscopy (IR-SLO) images. The work involves segmenting IR-SLO images into distinct anatomical structures, extracting clinically relevant features from these structures, and assessing their significance in differentiating between MS patients and healthy controls (HC).
 
 For this project, we leveraged the code provided in the publication by Zhou et al., titled **"AutoMorph: Automated Retinal Vascular Morphology Quantification Via a Deep Learning Pipeline"**
 
 
-**Folder Structure**
+# Folder Structure
 
 **code_1: Optic Disc and Cup Segmentation**
 
@@ -29,15 +30,15 @@ This folder focuses on evaluating the importance of each clinical feature for di
 
 
 
-**Workflow**
+# Workflow
 
-Segmentation:
+**Segmentation:**
 
 Run the scripts in code_1 to segment the optic disc and cup from IR-SLO images.
 Run the scripts in code_2 to segment blood vessels from the same images.
 
 
-Feature Extraction:
+**Feature Extraction:**
 
 Use the scripts in code_3 to extract clinical features from the segmented anatomical structures.
 Feature Selection and Importance Measurement:
@@ -47,28 +48,28 @@ Apply the SHAP method to the selected features to determine their importance in 
 
 
 
-**Requirements**
+# Requirements
 
 Python 3.x
 Deep learning framework (TensorFlow)
 Libraries: NumPy, OpenCV, scikit-learn, SHAP, and any other dependencies specified in the individual code files.
 
 
-**Usage**
+# Usage
 
 Ensure all dependencies are installed.
 Place the input IR-SLO images in the designated directory.
 Follow the workflow steps to segment the images, extract features, and evaluate their importance.
 
 
-**Conclusion**
+# Conclusion
 
 This project provides a comprehensive pipeline for segmenting IR-SLO images, extracting clinically relevant features, and evaluating their significance in the classification of MS. By combining deep learning-based segmentation with statistical feature selection methods, the pipeline enables robust analysis and the potential identification of MS-specific features within IR-SLO images.
 
 For any questions or further assistance, please contact "asieh.soltanipour1365@gmail.com" (the main Author).
 
 
-
+# Citing
 **Please ensure to include the following citations when utilizing any part of the code:**
 
 [1] Soltanipour A, Arian R, Aghababaei A, Kafieh R, Ashtari F. Analyzing morphological alternations of vessels in multiple Sclerosis using SLO images of the eyes [Internet]. bioRxiv. 2023. Available from: http://dx.doi.org/10.1101/2023.12.12.23299846
